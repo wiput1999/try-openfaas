@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://faas.wiput.me
+functions:
+  astronaut-finder:
+    lang: python3
+    handler: ./astronaut-finder
+    image: docker.pkg.github.com/wiput1999/try-openfaas/astronaut-finder:latest
+
