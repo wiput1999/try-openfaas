@@ -7,4 +7,6 @@ functions:
     lang: python3
     handler: ./astronaut-finder
     image: docker.pkg.github.com/wiput1999/try-openfaas/astronaut-finder:latest
+    environment:
+      write_debug: true
 
